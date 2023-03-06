@@ -1,15 +1,10 @@
-public class SumNatural {
+# Python Program to calculate the square root
 
-    public static void main(String[] args) {
+# Note: change this value for a different result
+num = 8 
 
-        int num = 100, sum = 0;
+# To take the input from the user
+#num = float(input('Enter a number: '))
 
-        for(int i = 1; i <= num; ++i)
-        {
-            // sum = sum + i;
-            sum += i;
-        }
-
-        System.out.println("Sum = " + sum);
-    }
-}
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
